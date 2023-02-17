@@ -1,0 +1,174 @@
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" type="text/css">
+<style media="screen">
+  div #btn1:hover{
+    color: #ffffff;
+    background-color: #87cefa;
+
+  }
+  div #btn1{
+    color: #87cefa
+  }
+</style>
+<div class="" style=" background-image: linear-gradient(120deg, #1ed96a, #1e79d9); background-color: #191970; height: 500px">
+    <div class="container text-light text-center" style="padding-top: 150px">
+      <h1>Welcome to <span style="color: #87cefa">Rekomenda</span></h1>
+      <p class="text-light lead">Rekomenda is a site that gives you recommendations on tech careers you wish to embark on</p>
+      <input id="btn1" style=" border-radius: 4px; border-width: 1px; border-color: #87cefa" class="btn btn-lg w-50 l-20" type="button" name="button" value="Let's Get Started">
+    </div>
+</div>
+<section class="container  mt-5">
+  <div class="row row-col-2 text-center p-5 text-dark mb-5">
+    <h1 class="text-start" style="color: #666666">Popular Paths</h1>
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e6f0ff">
+      <div class="card-body text-center">
+        <a href="{% url 'python' %}" style="text-decoration: none;">
+          <div class="card-title text-start " style="color: #1e79d9;">
+            <b>Python</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with python</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e8f9f4">
+      <div class="card-body text-center">
+        <a href="{% url 'java' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #1ed96a;">
+            <b>Django</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with django</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-md g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #fff9e6">
+      <div class="card-body text-center">
+        <a href="{% url 'javascript' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #ffa500;">
+            <b>JavaScript</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with javascript</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Second Row-->
+<section class="container ">
+  <div class="row row-col-2 text-center pe-5 ps-5 text-dark mb-5">
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e6f0ff">
+      <div class="card-body text-center">
+        <a href="{% url 'python' %}" style="text-decoration: none;">
+          <div class="card-title text-start " style="color: #1e79d9;">
+            <b>Python</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with python</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e8f9f4">
+      <div class="card-body text-center">
+        <a href="{% url 'java' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #1ed96a;">
+            <b>Django</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with django</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-md g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #fff9e6">
+      <div class="card-body text-center">
+        <a href="{% url 'javascript' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #ffa500;">
+            <b>JavaScript</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with javascript</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Third Row-->
+<section class="container  mt-5">
+  <div class="row row-col-2 text-center pe-5 ps-5 text-dark mb-5">
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e6f0ff">
+      <div class="card-body text-center">
+        <a href="{% url 'python' %}" style="text-decoration: none;">
+          <div class="card-title text-start " style="color: #1e79d9;">
+            <b>Python</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with python</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-lg g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #e8f9f4">
+      <div class="card-body text-center">
+        <a href="{% url 'java' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #1ed96a;">
+            <b>Django</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with django</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card col-md g-2 m-2" style="border-radius: 10px; border: none; font-size: 20px; padding-bottom: 10px; width: 100%; background-color: #fff9e6">
+      <div class="card-body text-center">
+        <a href="{% url 'javascript' %}" style="text-decoration: none;">
+          <div class="card-title text-start" style="color: #ffa500;">
+            <b>JavaScript</b>
+          </div>
+          <div class="card-text text-dark lead">
+            <p>We give you best courses to get you up and running in programming with javascript</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="p-5" style="height: 250px; background-color: #fcfcfc">
+    <h1><b>Career Paths</b></h1>
+    <p>Our career path recommendations covers a lot of areas among which are: </p>
+    <div class="d-lg-flex d-md-flex d-sm-block" style="">
+      <button style="padding: 10px; margin-top: 10px; color: #7635f3; margin-right: 20px; border-width: 1px; font-size: 20px; border-radius: 5px; border-color: #7635f3; background-color: #fcfcfc">Python</button>
+      <button style="padding: 10px; margin-top: 10px; color: #7635f3; margin-right: 20px; border-width: 1px; font-size: 20px; border-radius: 5px; border-color: #7635f3; background-color: #fcfcfc">JavaScript</button>
+      <button style="padding: 10px; margin-top: 10px; color: #7635f3; margin-right: 20px; border-width: 1px; font-size: 20px; border-radius: 5px; border-color: #7635f3; background-color: #fcfcfc">Java</button>
+      <button style="padding: 10px; margin-top: 10px; color: #7635f3; margin-right: 20px; border-width: 1px; font-size: 20px; border-radius: 5px; border-color: #7635f3; background-color: #fcfcfc">TensorFlow</button>
+    </div>
+  </div>
+</section>
+<section class="container mt-5 mb-5">
+  <div class="card">
+    <div class="card-body" style="">
+      <div class="card-title" style="display: inline-flex">
+        <div class="" style="height: 50px; width: 50px; border-radius: 50%; background-color: #fcfcfc;">
+          <img src="{% static 'images/pngaaa.com-2507875.png' %}" alt="profile-photo" height="50px" width="55px">
+        </div>
+        <h3 style="padding-left: 20px;">Praise Sabo</h3>
+      </div>
+      <div class="card-text" style="padding-left: 50px;">
+        <p>Omoh, when i used the given recommendations everything just soft</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer height=50px style="padding: 20px; background-color: #999999">
+  <p>&copy;Copyrights <span style="float: right;">developed by <b>TheNewSun</b></span></p>
+
+</footer>
