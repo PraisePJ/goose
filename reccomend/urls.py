@@ -5,5 +5,5 @@ urlpatterns = [
     path('', views.Home),
     path('python/', views.Python, name='python'),
     path('javascript/', views.JavaScript, name='javascript'),
-    path('django/', views.Django, name='java'),
+    path('django/', views.Django, name='django')
 ]
