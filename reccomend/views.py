@@ -12,3 +12,21 @@ def JavaScript(request):
 
 def Django(request):
     return render(request, 'django.html')
+
+def React(request):
+    return render(request, 'react.html')
+
+def Vue(request):
+    return render(request, 'vue.html')
+
+def Bootstrap(request):
+    return render(request, 'bootstrap.html')
+
+def Angular(request):
+    return render(request, 'angular.html')
+
+def DjangoRest(request):
+    return render(request, 'django.html')
+
+def TensorFlow(request):
+    return render(request, 'tensorflow.html')
